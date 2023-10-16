@@ -1,0 +1,190 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Public Sans", sans-serif;
+    color: #002B54;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: border-box;
+}.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002B54;
+    padding: 58px 0;
+    margin-top: 83px;
+    width: 100.5vw;
+    box-sizing: border-box;
+    margin-left: -100px;
+}
+
+
+
+
+.bottomcenter {
+    flex: 1;
+    text-align: center;
+}
+
+.get-access-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.get-access-button:hover {
+    background-color: #ff814e; /* Change the color on hover */
+}
+
+
+.bottomright {
+    flex: 1;
+    text-align: right;
+}
+
+.bottomright a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.bottomleft {
+    flex: 1;
+}
+
+.bottomleft h1 {
+    color: #FFF;
+    font-size: 18px;
+    margin: 0;
+    margin-right: 60px;
+    font-family: 'Merriweather', sans-serif;
+ }
+
+
+
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.middle-section img {
+    max-width: 110%;
+    height: auto;
+    
+    margin-left: 120px;
+    margin-top: 146px;
+}
+
+.top-section {
+    text-align: center;
+    margin-top: -100px;
+   
+}
+
+.navigation a {
+    position: relative;
+    color: #002B54;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 500px;
+}
+.red-section {
+    background-color:#B8014c;
+    height: 57.5vh; /* Adjust as needed */
+    width: 102px; /* Adjust width as needed */
+    position: absolute; /* Position it absolutely */
+    left: 0; /* Align it to the left */
+    top: 140px; /* Align it to the top */
+    
+}
+.top-left-heading {
+    position: relative;
+   margin-bottom: 10px;
+   bottom: 20px;
+}
+.top-left img {
+    position: relative;
+    margin-left: 40px;
+    top: -35px;
+}
+.logo{
+    margin-bottom: 5px;
+    position: relative; /* or absolute, depending on your layout */
+    top: -50px; /* Adjust as needed */
+    max-width: 100px;
+    
+
+}
+.icons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 1100px;
+    top: 70px; /* Adjust as needed to shift the icons downward */
+}
+
+.icons i {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.icon-relative {
+    margin-left: 15px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+    
+
+ 
+
